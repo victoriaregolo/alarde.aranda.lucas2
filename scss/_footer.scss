@@ -1,0 +1,74 @@
+@media only screen and (min-width: 1024px) {
+    .footer_div--decoracion {
+        background-image: url("../assets/img/fondofooterr.jpg");
+        width: 100%;
+        height: 200px;
+      }
+      .footer_img--posicion {
+        width: 30px;
+        height: 30px;
+        margin: 0px 20px;
+      }
+      .footer_leetralogo--posicion-padre {
+        display: flex;
+        justify-content: center;
+      }
+      .footer_leetralogo--posicion {
+        width: 70px;
+        height: 70px;
+        display: flex;
+        margin: 30px;
+      }
+      .footer_redes--posicion {
+        display: flex;
+        justify-content: center;
+        margin: 20px 20px;
+      }
+      .classfooterLi {
+        list-style: none;
+        font-size: 25px;
+      }
+      .classfooterUl {
+        display: flex;
+        flex-direction: row;
+      }
+}
+
+@media only screen (min-width: 0px) and (max-width: 768px) {
+  .footer_div--decoracion {
+    background-image: url("../assets/img/fondofooterr.jpg");
+    width: 100%;
+    height: 300px;
+  }
+  .footer_img--posicion {
+    width: 30px;
+    height: 30px;
+    margin: 0px 20px;
+  }
+  .footer_leetralogo--posicion-padre {
+    display: flex;
+    justify-content: center;
+  }
+  .footer_leetralogo--posicion {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    margin: 10px;
+  }
+  .footer_redes--posicion {
+    display: flex;
+    justify-content: center;
+    margin: 5px 10px;
+  }
+  .classfooterLi {
+    list-style: none;
+    font-size: 16px;
+  }
+  .classfooterUl {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+
+  
