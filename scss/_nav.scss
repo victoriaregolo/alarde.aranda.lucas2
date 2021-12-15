@@ -42,8 +42,7 @@ a:hover {
     border-radius: 5px !important;
   }
 }
-
-@media only screen (min-width: 0px) and (max-width: 768px) {
+@media only screen and (min-width: 0px) and (max-width: 768px) {
   .classNavUl {
     list-style-type: none;
     margin: 2px 5px 0px -250px;
