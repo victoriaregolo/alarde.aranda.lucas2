@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALARDE-Cervecería</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2? family=Arvo:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ewert&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="../css/animate.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <!-- ENCABEZADO -->
+    <div class="gridContainerPadreContacto"> 
+        <header class="header--position" class="flex">
+            <!-- Incertar logo -->
+            <div>
+                <a href="../index.html">
+                    <img src="../assets/img/logo.png" alt="logo" class="div_img--border">
+                </a>
+            </div>
+            <!-- Nav-->
+            <nav>
+                <ul class="classNavUl">
+                    <li class="classNavLi">
+                        <a href="../index.html">Inicio</a>
+                    </li>
+                    <li class="classNavLi">
+                        <a href="../pages/cervezas.html">Cervezas</a>
+                    </li>
+                    <li class="classNavLi">
+                        <a href="../pages/sucursales.html">Sucursales </a>
+                    </li>
+                    <li class="classNavLi">
+                        <a href="../pages/nuestracarta.html">Nuestra Carta</a>
+                    </li>
+                    <li class="classNavLi">
+                        <a href="../pages/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!-- FIN ENCABEZADO -->
+        <!-- INICIO DE CONTENIDO -->
+        <main class="flex">
+            <!-- FORMULARIO -->
+            <div class="main_h1--tipografia animate__animated animate__backInLeft">
+                <h1>¡Nos gustaría resolver tus inquietudes!</h1>
+            </div>
+            <sesion >
+                <form action="" class="main_sesion--form animate__animated animate__slideInRight">
+                    <label for="nombre"> <strong>NOMBRE </strong>
+                        <input type="text" name="nombre">
+                    </label> <br>
+                    <label for="apellido"> <strong>APELLIDO </strong>
+                        <input type="text" name="apellido">
+                    </label> <br>
+                    <label for="Edad"> <strong> EDAD</strong> 
+                        <input type="number" name="Edad">
+                    </label> <br>
+                    <h3>SEXO</h3>
+                    <h4>Femenino
+                        <input type="radio" name="sexo" value="femenino">
+                    </h4>
+                    <h4>Masculino
+                        <input type="radio" name="sexo" value="masculino">
+                    </h4>
+                    <h4>Otro
+                        <input type="radio" name="sexo" value="otro">
+                    </h4>
+                    <label for="email"> <strong>EMAIL </strong>
+                        <input type="text" name="email">
+                    </label> <br>
+                    <textarea id="mensaje" name="mensaje" cols="80" rows="10" placeholder="Ingrese mensaje"></textarea>
+                    <h5> ELEGIR SUCURSAL
+                        <select name="sucursal" id="sucursal">
+                            <option value="todas">Todas</option>
+                            <option value="alarde costa">Alarde Costa</option>
+                            <option value="alarde olavarría">Alarde Olavarría</option>
+                            <option value="alarde playa grande">Alarde Playa Grande</option>
+                        </select>
+                    </h5>
+                    <h5> Recibir novedades de Alarde Cervecería en el correo mencionado
+                        <input type="checkbox" name="aceptar" value="aceptar">
+                    </h5>
+                    <input type="submit" value="ENVIAR DATOS">
+                    <input type="reset" value="BORRAR">
+                </form>
+            </sesion>
+        </main>
+        <!-- CIERRE DE CONTENIDO -->
+        <!-- INICIO FOOTER -->
+        <footer class="flex">
+            <div class="footer_div--decoracion">
+                <!-- CONTACTO -->
+                <div class="footer_leetralogo--posicion-padre">
+                    <img src="../assets/img/carta-a.png" alt="letra a" class="footer_leetralogo--posicion" />
+                </div>
+                <div class="footer_redes--posicion">
+                    <ul class="classfooterUl">
+                        <li class="classfooterLi">
+                            <img src="../assets/img/email.png" alt="email" class="footer_img--posicion" />
+                            <a href="https://www.google.com/intl/es-419/gmail/about/">
+                                alardecerveceria@gmail.com</a>
+                        </li>
+                        <li class="classfooterLi">
+                            <img src="../assets/img/instagram.png" alt="instagram" class="footer_img--posicion" />
+                            <a href="https://www.instagram.com/alardecerveza/?hl=es">Instagram</a>
+                        </li>
+                        <li class="classfooterLi">
+                            <img src="../assets/img/facebook.png" alt="facebook" class="footer_img--posicion" />
+                            <a
+                                href="https://www.facebook.com/confirmemail.php?next=https%3A%2F%2Fwww.facebook.com%2Fpages%2Fcategory%2FLocal-Business%2FAlarde-Compa%25C3%25B1%25C3%25ADa-Cervecera-1218236361604383%2F">Facebook</a>
+                        </li>
+                        <li class="classfooterLi">
+                            <img src="../assets/img/whatsapp.png" alt="whatsapp" class="footer_img--posicion" />
+                            <a href="https://web.whatsapp.com/">Whatsapp</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- CIERRE FOOTER -->
+    <script src="../js/wow.min.js"></script>
+    <script> 
+    new WOW ().init ()
+    </script>
+</body>
+
+</html>
+

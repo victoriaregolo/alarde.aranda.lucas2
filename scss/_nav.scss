@@ -1,0 +1,85 @@
+
+$bordo: rgb(146, 0, 0);
+$salmon:rgb(255, 165, 112);
+$gris:rgb(131, 120, 120);
+$negro: rgb(0, 0, 0);
+$anaranjado: orangered;
+
+@media only screen and (min-width: 1024px) {
+  a {
+    text-decoration: none;
+    color:$bordo ;
+    font-weight: bold;
+    font-family: "IM Fell DW Pica", serif;
+    transition: color;
+  }
+  a:hover {
+    color: $salmon;
+  }
+  .classNavUl {
+    list-style-type: none;
+    position: relative;
+    top: -100px;
+    left: -5px !important;
+    padding: 0px;
+    display: flex;
+    justify-content:center !important;
+  }
+  .classNavLi {
+    font-size: 30px;
+    color: $gris ;
+    list-style: none;
+    padding: 10px;
+    margin: 10px 0px 0px 0px;
+  }
+  .header--position {
+    background-color: $negro ;
+    border-bottom: 6px solid $anaranjado;
+    height: 110px;
+    width: 100%;
+  }
+  .div_img--border {
+    margin: 5px 0px 5px 5px;
+    border-radius: 5px !important;
+  }
+}
+
+@media only screen (min-width: 0px) and (max-width:768px){
+  a {
+    text-decoration: none;
+    color: $bordo ;
+    font-weight: bold;
+    font-family: "IM Fell DW Pica", serif;
+    transition: color;
+  }
+  a:hover {
+    color: $salmon;
+  }
+  .classNavUl {
+    list-style-type: none;
+    position: relative;
+    top: -100px;
+    left: -5px !important;
+    padding: 0px;
+    display: flex;
+    justify-content:center !important;
+  }
+  .classNavLi {
+    font-size: 30px;
+    color: $gris;
+    list-style: none;
+    padding: 10px;
+    margin: 10px 0px 0px 0px;
+  }
+  .header--position {
+    background-color: $negro;
+    border-bottom: 6px solid $anaranjado;
+    height: 110px;
+    width: 100%;
+  }
+  .div_img--border {
+    margin: 5px 0px 5px 5px;
+    border-radius: 5px !important;
+  }  
+}
+  
