@@ -1,7 +1,9 @@
+$bordo: rgb(146, 0, 0);
+
 @media only screen and (min-width: 1024px) {
     .main_section--titulos {
         font-size: 50px;
-        color: rgb(146, 0, 0);
+        color: $bordo ;
         font-weight: bold;
         font-family: "Arvo";
         display: flex;
@@ -43,7 +45,7 @@
      
   .main_section--titulos {
     font-size: 20px;
-    color: rgb(146, 0, 0);
+    color: $bordo;
     font-weight: bold;
     font-family: "Arvo";
     display: flex;
