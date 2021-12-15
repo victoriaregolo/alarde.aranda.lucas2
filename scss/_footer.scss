@@ -1,3 +1,6 @@
+$desktop: 1024px 1024px;
+$minimomobile: 0px;
+$maximomobile: 768px;
 .footer_img--posicion {
     width: 30px;
     height: 30px;
@@ -8,7 +11,7 @@
     justify-content: center;
   }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width:$desktop) {
     .footer_div--decoracion {
         background-image: url("../assets/img/fondofooterr.jpg");
         width: 100%;
@@ -34,8 +37,7 @@
         flex-direction: row;
       }
 }
-
-@media only screen (min-width: 0px) and (max-width: 768px) {
+@media only screen (min-width:$minimomobile) and (max-width: $maximomobile) {
   .footer_div--decoracion {
     background-image: url("../assets/img/fondofooterr.jpg");
     width: 100%;

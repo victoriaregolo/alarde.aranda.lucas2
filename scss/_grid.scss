@@ -1,15 +1,18 @@
-@media only screen and (min-width: 1024px) {
-    .gridContainerPadre {
-        display: grid;
-        grid-template-areas:
-          "header header header  "
-          "main main main  "
-          "footer footer footer ";
-        grid-template-rows: 110px auto 200px;
-        grid-template-columns: 25% auto 25%;
-      }
-      header {
-        grid-area: header;
+$desktop: 1024px;
+$minimomobile: 0px;
+$maximomobile: 768px;
+@media only screen and (min-width:$desktop) {
+  .gridContainerPadre {
+    display: grid;
+    grid-template-areas:
+    "header header header  "
+    "main main main  "
+    "footer footer footer ";
+     grid-template-rows: 110px auto 200px;
+     grid-template-columns: 25% auto 25%;
+  }
+    header {
+   grid-area: header;
       }
       main {
         grid-area: main;
@@ -21,28 +24,27 @@
         display: flex;
       }      
 }
-
-@media only screen (min-width: 0px) and (max-width: 768px) {
-    .gridContainerPadre {
-        display: grid;
-        grid-template-areas:
-          "header "
-          "main"
-          "footer";
-        grid-template-rows: 110px auto 300px;
-        grid-template-columns: 100%;
-      }
-      header {
-        grid-area: header;
-      }
-      main {
-        grid-area: main;
-      }
-      footer {
-        grid-area: footer;
-      }
-      .flex {
-        display: flex;
-        justify-content: center;
-      }    
+@media only screen (min-width: $minimomobile) and (max-width: $maximomobile) {
+  .gridContainerPadre {
+    display: grid;
+    grid-template-areas:
+      "header "
+      "main"
+      "footer";
+    grid-template-rows: 110px auto 300px;
+    grid-template-columns: 100%;
+  }
+  header {
+    grid-area: header;
+  }
+  main {
+    grid-area: main;
+  }
+  footer {
+    grid-area: footer;
+  }
+  .flex {
+    display: flex;
+    justify-content: center;
+  }    
 }
