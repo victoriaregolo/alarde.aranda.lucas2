@@ -14,17 +14,17 @@ $maximomobile: 768px;
     header {
    grid-area: header;
       }
-      main {
+    main {
         grid-area: main;
       }
-      footer {
+    footer {
         grid-area: footer;
       }
-      .flex {
+    .flex {
         display: flex;
       }      
 }
-@media only screen (min-width: $minimomobile) and (max-width: $maximomobile) {
+@media only screen and (min-width: $minimomobile) and (max-width: $maximomobile) {
   .gridContainerPadre {
     display: grid;
     grid-template-areas:
