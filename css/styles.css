@@ -1,3 +1,7 @@
+* {
+  margin: 0%; }
+body {
+  background-image: url("../assets/img/fonfoblanco.jpg"); }
 a {
   text-decoration: none;
   color: #920000;
@@ -6,7 +10,7 @@ a {
   transition: color; }
 a:hover {
   color: #ffa570; }
-  @media only screen and (min-width: 1024px 1024px) {
+  @media only screen and (min-width: 1024px) {
     a:hover .classNavUl {
       list-style-type: none;
       position: relative;
@@ -55,6 +59,12 @@ a:hover {
       margin-bottom: 80px !important;
       width: 20%; } }
 
+* {
+  margin: 0%; }
+
+body {
+  background-image: url("../assets/img/fonfoblanco.jpg"); }
+
 @media only screen and (min-width: 0px) and (max-width: 768px) {
   .main_section--titulos {
     font-size: 20px;
@@ -84,7 +94,7 @@ a:hover {
     margin-right: -1px;
     transform: skewX(-20deg); } }
 
-@media only screen and (min-width: 1024px 1024px) {
+@media only screen and (min-width: 1024px) {
   .main_section--titulos {
     font-size: 50px;
     color: #920000;
@@ -118,6 +128,12 @@ a:hover {
   .main_section--iframe:hover {
     margin: 50px; } }
 
+* {
+  margin: 0%; }
+
+body {
+  background-image: url("../assets/img/fonfoblanco.jpg"); }
+
 .footer_img--posicion {
   width: 30px;
   height: 30px;
@@ -127,7 +143,7 @@ a:hover {
   display: flex;
   justify-content: center; }
 
-@media only screen and (min-width: 1024px 1024px) {
+@media only screen and (min-width: 1024px) {
   .footer_div--decoracion {
     background-image: url("../assets/img/fondofooterr.jpg");
     width: 100%;
@@ -169,6 +185,12 @@ a:hover {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap; } }
+
+* {
+  margin: 0%; }
+
+body {
+  background-image: url("../assets/img/fonfoblanco.jpg"); }
 
 @media only screen and (min-width: 1024px) {
   .gridContainerPadre {

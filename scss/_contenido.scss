@@ -1,7 +1,13 @@
 $bordo: rgb(146, 0, 0);
-$desktop: 1024px 1024px;
+$desktop: 1024px;
 $minimomobile: 0px;
 $maximomobile: 768px;
+* {
+  margin: 0%;
+}
+body {
+  background-image: url("../assets/img/fonfoblanco.jpg");
+}
 @media only screen and (min-width:$minimomobile ) and(max-width:$maximomobile ) {
   .main_section--titulos {
     font-size: 20px;

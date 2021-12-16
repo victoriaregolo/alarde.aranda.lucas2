@@ -1,6 +1,12 @@
-$desktop: 1024px 1024px;
+$desktop: 1024px;
 $minimomobile: 0px;
 $maximomobile: 768px;
+* {
+  margin: 0%;
+}
+body {
+  background-image: url("../assets/img/fonfoblanco.jpg");
+}
 .footer_img--posicion {
     width: 30px;
     height: 30px;
