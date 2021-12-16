@@ -10,7 +10,6 @@ $maximomobile: 768px;
     display: flex;
     justify-content: center;
   }
-
 @media only screen and (min-width:$desktop) {
     .footer_div--decoracion {
         background-image: url("../assets/img/fondofooterr.jpg");
@@ -37,7 +36,7 @@ $maximomobile: 768px;
         flex-direction: row;
       }
 }
-@media only screen (min-width:$minimomobile) and (max-width: $maximomobile) {
+@media only screen and (min-width: $minimomobile) and (max-width: $maximomobile) {
   .footer_div--decoracion {
     background-image: url("../assets/img/fondofooterr.jpg");
     width: 100%;
