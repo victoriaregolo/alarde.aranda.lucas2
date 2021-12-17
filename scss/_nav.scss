@@ -21,7 +21,7 @@ a {
 }
 a:hover {
   color: $salmon;
-
+}
 @media only screen and (min-width: $desktop) {
   .classNavUl {
     list-style-type: none;
@@ -79,5 +79,4 @@ a:hover {
     margin-bottom: 80px !important;
     width: 20%;
   }
-}
 }
